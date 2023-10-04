@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.first {
+    display: block;
+    background-image: url(../img/Group\ 11\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding-top: 35px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+    list-style-type: none;
+}
+
+.list__item {
+    margin-left: 50px;
+}
+
+.list__item:last-child {
+    border: 1px solid #fff;
+    padding: 10px 40px;
+    border-radius: 59px;
+    margin-top: -10px;
+}
+
+.list__item a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.list__item:hover a {
+    color: #313EF7;
+    text-decoration: underline;
+}
+
+/* section HERO */
+.hero {
+    padding: 50px 0 189px 0;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.hero h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 700;
+}
+
+.hero p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.modal {
+    width: 1120px;
+    color: #fff;
+    margin-left: 120px;
+    display: block;
+    padding-bottom: 3px;
+}
+
+.md_list {
+    width: 360px;
+    display: flex;
+    list-style-type: none;
+    border-radius: 20px 20px 0 0;
+    background-color: #fff;
+    color: black;
+    font-weight: 700;
+}
+
+.md__item {
+    padding: 16px 20px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.md__item:hover {
+    background-color: #313EF7;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.md_list2 {
+    width: 1120px;
+    height: 70px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    color: black;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 0 20px 0 0;
+}
+
+.md_list2 p {
+    font-size: 12px;
+    color: rgb(80, 82, 83);
+}
+
+.md__item2 {
+    text-decoration: none;
+    color: rgb(19, 17, 17);
+
+}
+
+.md__btn {
+    width: 80px;
+    height: 30px;
+    margin-top: 3px;
+    margin-bottom: 4px;
+    font-size: 14px;
+    background-color: #313EF7;
+    border: none;
+    border-radius: 12px;
+}
+
+/* Features */
+.features {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+}
+
+.features h2 {
+    font-size: 46px;
+    color: #030522;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.ft__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.ft_item {
+    display: flex;
+    width: 281.633px;
+    height: 320px;
+    padding: 42px 21px;
+    align-items: flex-start;
+    border-radius: 185px;
+    background: #f3ebeb;
+    box-shadow: 0px 100px 200px 0px rgba(1, 23, 54, 0.10);
+}
+
+.ft_item button {
+    padding: 4px 16px;
+    color: #fff;
+    font-size: 24px;
+    background-color: #030522;
+    border-radius: 195px;
+}
+
+/* information */
+.information {
+    display: flex;
+    padding: 108px 0 0 0;
+    justify-content: space-around;
+}
+
+.info {
+    text-align: start;
+}
+
+.info h4 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #313EF7;
+    line-height: 24px;
+}
+
+.info h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #030303;
+}
+
+.info__list {
+    margin-top: 40px;
+    margin-left: -10px;
+}
+
+.info__item {
+    color: #030303da;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info__btn {
+    border: none;
+    margin-top: 40px;
+    font-size: 17px;
+    width: 200px;
+    padding: 14px 45px;
+    border-radius: 56px;
+    background: #313EF7;
+    box-shadow: 0px 10px 14px 0px rgba(49, 62, 247, 0.25);
+}
+
+/* Popular Flight  */
+.popularFlight {
+    background-color: #030522;
+}
+
+.Pf {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding: 50px 165px;
+}
+
+.pf__info h3 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pf__info p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFFFFFA6;
+}
+
+/* Feedback */
+.feedback {
+    height: 650px;
+    padding-top: 100px;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.feedback p {
+    font-size: 20px;
+    color: #313EF7;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feedback h3 {
+    font-size: 40px;
+    color: #011736;
+    font-weight: 700;
+    line-height: 150%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fd__info {
+    display: flex;
+}
+
+.img1 {
+    width: 670px;
+    height: 320px;
+    margin-top: 20px;
+}
+
+.img2 {
+    margin-top: -50px;
+}
+
+/* Memories */
+.memories {
+    margin-top: 70px;
+    padding-bottom: 100px;
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.memories div {
+    margin-top: 80px;
+    display: flex;
+}
+
+.img__bottom {
+    margin-top: 80px;
+}
+
+/* Newsletter */
+.newsletter {
+    padding: 100px 20px;
+    background: rgba(49, 62, 247, 0.05);
+    text-align: center;
+    justify-content: center;
+}
+
+.newsletter h2 {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #030522;
+}
+
+.newsletter div {
+    margin-top: 90px;
+    margin-left: 660px;
+    display: flex;
+    text-align: center;
+}
+
+.n__inp {
+    padding: 21px 40px;
+    border: none;
+    font-size: 22px;
+    border-radius: 150px 0 0 150px;
+}
+
+.n__btn {
+    padding: 0 24px;
+    font-size: 23px;
+    border-radius:  150px 150px 150px 150px;
+    background-color: #313EF7;
+    border: none;
+    color: #f3ebeb;
+}
+
+.footer {
+    background-image: url(../img/Group\ 11\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
